@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "AZ Saarthi",
+  "version": "0.1",
+  "author": "Daksh Singh Rathore",
+  "description": "Level up your experience on AlgoZenith with an AI-powered problem-solving assistant.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://maang.in/*"
+      ],
+      "js": [
+        "content.js",
+        "marked.js"
+      ],
+      "type": "module"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "inject.js",
+        "marked.js",
+        "assets/logo16.png",
+        "assets/logo32.png",
+        "assets/logo48.png",
+        "assets/logo128.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/logo16.png",
+      "48": "assets/logo48.png",
+      "32": "assets/logo32.png",
+      "128": "assets/logo128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "AI Saarthi: Your assistant for AlgoZenith DSA problems"
+  }
+}
