@@ -9,11 +9,10 @@
     "activeTab",
     "tabs"
   ],
-  "host_permissions": [
-    "https://generativelanguage.googleapis.com/*",
-    "http://*/*",
-    "https://*/*"
-  ],
+ "host_permissions": [
+  "https://generativelanguage.googleapis.com/*",
+  "https://maang.in/*"
+],
   "content_scripts": [
     {
       "matches": [
