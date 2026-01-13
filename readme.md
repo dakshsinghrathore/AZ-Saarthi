@@ -61,7 +61,7 @@ Modern, clean, and highly intuitive for effortless problem-solving
 1️⃣ **Download or clone** this repo.  
 2️⃣ Open **Chrome → Extensions → Developer Mode**.  
 3️⃣ Click **Load Unpacked** and select the project folder.  
-4️⃣ Head to **AlgoZenith**, click on the **extension icon**, where you need to provide your <a href="https://aistudio.google.com/api-keys" target="_blank">**API keys**</a>, and then you can start using the extension.  
+4️⃣ Head to **AlgoZenith**, click on the **extension icon**, where you need to provide your <a href="https://aistudio.google.com/api-keys" target="_blank" rel="noopener noreferrer">**API keys**</a>, and then you can start using the extension.  
 
 
 
